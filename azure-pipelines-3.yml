@@ -21,7 +21,9 @@ stages:
             linux:
               operatingSystem: 'ubuntu-latest'
             mac:
-              operatingSystem: 'macos-latest'  
+              operatingSystem: 'macos-latest' 
+            windows:
+              operatingSystem: 'windows-latest'   
         pool:
          vmImage: $(operatingSystem)   
         variables:
