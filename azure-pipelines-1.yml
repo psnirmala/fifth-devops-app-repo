@@ -27,10 +27,10 @@ stages:
               displayName: 'Run first step in job2'
 
   -stage: DevDeploy
-    jobs:
-      - job: DevDeployJob
-        steps:
-        - script: echo this is DevDeployJob
+      jobs:
+        - job: DevDeployJob
+          steps:
+          - script: echo this is DevDeployJob
  
  
   -stage: QADeploy
