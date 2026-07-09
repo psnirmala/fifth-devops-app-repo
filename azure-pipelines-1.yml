@@ -20,7 +20,7 @@ stages:
           configuration: 'java-11 config'
           platform: 'x64'  
         steps:
-        - script: echo "building in $(configuration) mode for $(platform) under ${env)"
+        - script: echo "building in $(configuration) mode for $(platform) under $(env)"
           displayName: 'Run first step in job1'
 
         - script: |
