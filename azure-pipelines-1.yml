@@ -13,8 +13,11 @@ stages:
   - stage: Build
     jobs:
       - job: job1
+        variables:
+          configuration: 'java-11 config'
+          platform: 'x64'  
         steps:
-        - script: echo Hello, world!----updated within job1
+        - script: echo "building in $(configuration) mode for $(platform)"
           displayName: 'Run first step in job1'
 
         - script: |
