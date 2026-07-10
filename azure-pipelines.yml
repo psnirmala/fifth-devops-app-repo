@@ -15,33 +15,4 @@ jobs:
     steps:
     - script: echo Hello, world!----updated within job1
       displayName: 'Run first step in job1'
-
-    - script: |
-        echo Add other tasks to build, test, and deploy your project.
-        echo This is step 2  in  job1
-      displayName: 'Run second step which contains multiple lines in job1'
-
-  - job: job2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> afa9206 (commit with stages)
-      steps:
-      - script: echo This is a step job2
-      displayName: 'Run first step in job2'
-=======
-    steps: 
-      - script: echo this is a step in job2
-        displayName: 'Run first step in job1'
->>>>>>> e761d2dd4895d089f9ae74f82db0cab4ce43c5e1
-<<<<<<< HEAD
-=======
-=======
-    steps: 
-      - script: echo this is a step in job2
-        displayName: 'Run first step in job1'
->>>>>>> e761d2dd4895d089f9ae74f82db0cab4ce43c5e1
->>>>>>> afa9206 (commit with stages)
-
       
