@@ -30,3 +30,5 @@ jobs:
         backendAzureRmStorageAccountName: 'armaccyeqfjho233kdq'
         backendAzureRmContainerName: 'testcontainer'
         backendAzureRmKey: 'kubdef.tfstate'
+      env:
+        ARM_SAS_TOKEN: 'sp=racwl&st=2026-07-10T15:50:36Z&se=2026-07-11T00:05:36Z&sv=2026-02-06&sr=c&sig=IBkOHtmZaJhoXNZMOOwGycn1e1ZO9cqd3s957tonM9Y%3D'  
