@@ -28,9 +28,9 @@ jobs:
         workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes/'
         commandOptions: '-var client_id=$(client_id) -var client_secret=$(client_secret) '
         backendServiceArm: 'test-azure-service-connection'
-        backendAzureRmResourceGroupName: 'user127_rg'
-        backendAzureRmStorageAccountName: 'armaccyeqfjho233kdq1'
-        backendAzureRmContainerName: 'testcontainer1'
+        backendAzureRmResourceGroupName: 'user127_1_rg'
+        backendAzureRmStorageAccountName: 'armaccyeqfjho233kdq'
+        backendAzureRmContainerName: 'testcontainer'
         backendAzureRmKey: 'kubdef.tfstate'
       env:
         ARM_SAS_TOKEN: 'sp=racwdl&st=2026-07-11T00:17:12Z&se=2026-07-13T08:32:12Z&sv=2026-02-06&sr=c&sig=nG6BW%2F1d2MR1lEDo3xk7w6k%2BP4xBzJyZYdj6nq7iPps%3D'
