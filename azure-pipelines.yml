@@ -20,6 +20,7 @@ jobs:
       inputs:
         terraformVersion: 'latest'
 
+
     - task: TerraformTask@5
       inputs:
         provider: 'azurerm'
